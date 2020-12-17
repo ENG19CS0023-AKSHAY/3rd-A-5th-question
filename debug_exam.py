@@ -112,3 +112,31 @@ if __name__ == '__main__':
     print(data1)
     print(data2)
     print(dup)
+'''
+5)a)Input
+3
+1 2
+2 2
+8 7
+2
+3 3
+2 9
+The output had to be
+{1:2,8:7,3:3}
+[[3,3],[2,9]]
+{2,[2,9]}
+but this is not what we get.
+5)b)
+there was an indentation error due to which it was not being read. in 53rd else has to be indentent with if condition.
+5)c)
+i)
+3
+1 2
+2 2
+9 4
+2
+3 3
+1 4
+{2:2,9:4,3:3}
+[[3,3],[1,4]]
+{1:[2,4}
